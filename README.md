@@ -13,6 +13,9 @@ Marovi AI is building a community-driven platform for:
 - Transparent AI model benchmarking for translation tasks
 - Crowd-sourced improvements to machine-generated content
 
+## 📌 Installation
+See [INSTALLATION.md](INSTALLATION.md) for detailed setup instructions using Poetry and Jupyter Notebook.
+
 ## 📖 Documentation
 [Coming Soon]
 
