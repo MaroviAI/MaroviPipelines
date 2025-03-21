@@ -1,6 +1,6 @@
-# MaroviCore
+# MaroviPipelines
 
-**MaroviCore** is the open-source foundation of the Marovi AI platform, focused on powering **Translation**, **Benchmarks**, and **LLM-Enhanced Wikis** for multilingual research and technical content.
+**MaroviPipelines** is the open-source offline processing engine of the Marovi AI platform, powering **Translation**, **Benchmarks**, and **LLM-Enhanced Wikis** for multilingual research, legal, medical, and technical content.
 
 ## 🌍 Core Capabilities
 - ✨ **Translation** — Modular pipeline supporting LLMs, NMT models, and glossary-driven translations
