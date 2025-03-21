@@ -84,7 +84,7 @@ poetry run python
 Install Jupyter and the kernel:
 ```bash
 poetry add jupyter ipykernel
-poetry run python -m ipykernel install --user --name=marovicore --display-name "Python (MaroviCore)"
+poetry run python -m ipykernel install --user --name=marovipipelines --display-name "Python (MaroviPipelines)"
 ```
 Verify kernel installation:
 ```bash
@@ -93,16 +93,16 @@ jupyter kernelspec list
 Expected:
 ```
 Available kernels:
-  marovicore    /home/youruser/.local/share/jupyter/kernels/marovicore
+  marovipipelines    /home/youruser/.local/share/jupyter/kernels/marovipipelines
 ```
 
 Run Jupyter:
 ```bash
 poetry run jupyter notebook
 ```
-or set `marovicore` as default:
+or set `marovipipelines` as default:
 ```bash
-jupyter notebook --NotebookApp.kernel_name="marovicore"
+jupyter notebook --NotebookApp.kernel_name="marovipipelines"
 ```
 
 ---

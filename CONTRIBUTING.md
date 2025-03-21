@@ -1,4 +1,4 @@
-# Contributing to MaroviCore
+# Contributing to MaroviPipelines
 
 Thank you for considering contributing!
 

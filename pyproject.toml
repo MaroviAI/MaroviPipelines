@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "marovicore"
+name = "marovipipelines"
 version = "0.1.0"
-description = "Multilingual AI research and translation system - Core components"
+description = "Offline processing engine for multilingual translation, benchmarks, and LLM-enhanced wikis in research, legal, and medical content."
 authors = ["Felipe Felix Arias <felipefelixarias@gmail.com>"]
 license = "Apache 2.0 with Contributor Assignment"
 readme = "README.md"
-packages = [{ include = "marovicore" }] 
+packages = [{ include = "marovipipelines" }] 
 
 [tool.poetry.dependencies]
 python = ">=3.10,<4.0"
