@@ -19,6 +19,7 @@ ipykernel = "^6.29.5"
 feedparser = "^6.0.11"
 pandas = "^2.2.3"
 polib = "^1.2.0"
+anthropic = "^0.49.0"
 
 [build-system]
 requires = ["poetry-core"]
