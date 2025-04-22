@@ -244,3 +244,19 @@ class PipelineContext:
             "artifacts_registered": list(self.artifacts.keys()),
             "metadata": self.metadata
         }
+
+    def get_metric(self, metric_name: str) -> Optional[float]:
+        """
+        Get the latest value for a specific metric.
+        
+        Args:
+            metric_name: Name of the metric to retrieve
+            
+        Returns:
+            The latest value of the metric, or None if not found
+        """
+        if metric_name not in self.metrics or not self.metrics[metric_name]:
+            return None
+        
+        # Get the latest value (last entry in the list)
+        return self.metrics[metric_name][-1]["value"]
